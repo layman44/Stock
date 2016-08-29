@@ -23,34 +23,6 @@ $(function () {
     });
     //END NEWS TICKER TOPBAR
 
-    //BEGIN TOPBAR DROPDOWN
-    $('.dropdown-slimscroll').slimScroll({
-        "height": '250px',
-        "wheelStep": 30
-    });
-    //END TOPBAR DROPDOWN
-
-    //BEGIN CHECKBOX & RADIO
-    if($('#demo-checkbox-radio').length <= 0){
-        $('input[type="checkbox"]:not(".switch")').iCheck({
-            checkboxClass: 'icheckbox_minimal-grey',
-            increaseArea: '20%' // optional
-        });
-        $('input[type="radio"]:not(".switch")').iCheck({
-            radioClass: 'iradio_minimal-grey',
-            increaseArea: '20%' // optional
-        });
-    }
-    //END CHECKBOX & RADIO
-
-    //BEGIN TOOTLIP
-    $("[data-toggle='tooltip'], [data-hover='tooltip']").tooltip();
-    //END TOOLTIP
-
-    //BEGIN POPOVER
-    $("[data-toggle='popover'], [data-hover='popover']").popover();
-    //END POPOVER
-
     //BEGIN THEME SETTING
     $('#theme-setting > a.btn-theme-setting').click(function(){
         if($('#theme-setting').css('right') < '0'){
@@ -402,24 +374,6 @@ $(function () {
     }, function() {
         $('.demo-layout').remove();
     });
-      $('#header-topbar-page .demo-layout').live('click', function() {
-        var HtmlOption = $(this).parent().detach();
-        $('#header-topbar-option-demo').html(HtmlOption).addClass('animated flash').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-            $(this).removeClass('animated flash');
-        });
-        $('#header-topbar-option-demo').find('.demo-layout').remove();
-        return false;
-    });
-    $('#title-breadcrumb-page .demo-layout').live('click', function() {
-        var HtmlOption = $(this).parent().html();
-        $('#title-breadcrumb-option-demo').html(HtmlOption).addClass('animated flash').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-            $(this).removeClass('animated flash');
-        });
-        $('#title-breadcrumb-option-demo').find('.demo-layout').remove();
-        return false;
-    });
-    // CALL FUNCTION RESPONSIVE TABS
-    fakewaffle.responsiveTabs(['xs', 'sm']);
 
     // BEGIN SEARCH FORM ON TOPBAR
     $('#topbar-search').on('click', function (e) {

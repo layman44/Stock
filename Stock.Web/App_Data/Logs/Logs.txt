@@ -1024,3 +1024,155 @@ DEBUG 2016-08-28 22:29:23,052 [1570 ] Abp.Localization.LocalizationManager     -
 DEBUG 2016-08-28 22:29:23,227 [1570 ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
 WARN  2016-08-28 22:29:24,878 [1584 ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
 WARN  2016-08-28 22:29:24,897 [1584 ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-08-29 19:53:15,837 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-08-29 19:53:15,846 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-08-29 19:53:15,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.Web.StockWebModule, Stock.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockDataModule, Stock.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockCoreModule, Stock.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockApplicationModule, Stock.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockWebApiModule, Stock.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:15,853 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-08-29 19:53:16,038 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Stock.EntityFramework.StockDbContext, Stock.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 19:53:16,752 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-08-29 19:53:16,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-08-29 19:53:16,766 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-08-29 19:53:16,767 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Stock
+DEBUG 2016-08-29 19:53:16,893 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-08-29 19:53:19,476 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-08-29 19:53:19,501 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-08-29 21:58:36,733 [317  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-08-29 21:58:36,735 [317  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-08-29 21:58:36,735 [317  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-08-29 21:58:36,735 [317  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-08-29 22:02:49,506 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-08-29 22:02:49,515 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-08-29 22:02:49,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.Web.StockWebModule, Stock.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockDataModule, Stock.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockCoreModule, Stock.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockApplicationModule, Stock.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockWebApiModule, Stock.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:49,526 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-08-29 22:02:49,733 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Stock.EntityFramework.StockDbContext, Stock.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:02:50,434 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-08-29 22:02:50,448 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-08-29 22:02:50,450 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-08-29 22:02:50,451 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Stock
+DEBUG 2016-08-29 22:02:50,569 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-08-29 22:02:53,290 [318  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-08-29 22:02:53,316 [318  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-08-29 22:20:52,726 [295  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-08-29 22:20:52,726 [295  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-08-29 22:20:52,726 [295  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-08-29 22:20:52,726 [295  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-08-29 22:21:03,462 [298  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-08-29 22:21:03,471 [298  ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-08-29 22:21:03,474 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.Web.StockWebModule, Stock.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,476 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,476 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,476 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,476 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,476 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockDataModule, Stock.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,477 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,477 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockCoreModule, Stock.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,477 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockApplicationModule, Stock.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,477 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockWebApiModule, Stock.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,477 [298  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:03,478 [298  ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-08-29 22:21:03,659 [298  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Stock.EntityFramework.StockDbContext, Stock.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:21:04,119 [298  ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-08-29 22:21:04,123 [298  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-08-29 22:21:04,123 [298  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-08-29 22:21:04,124 [298  ] Abp.Localization.LocalizationManager     - Initialized localization source: Stock
+DEBUG 2016-08-29 22:21:04,257 [298  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-08-29 22:21:06,535 [281  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-08-29 22:21:06,577 [281  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-08-29 22:41:55,998 [302  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-08-29 22:41:55,998 [302  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-08-29 22:41:55,998 [302  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-08-29 22:41:55,998 [302  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-08-29 22:41:58,503 [263  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-08-29 22:41:58,608 [263  ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-08-29 22:41:58,611 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.Web.StockWebModule, Stock.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,613 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,613 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,613 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,613 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,613 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockDataModule, Stock.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,614 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,614 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockCoreModule, Stock.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,614 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockApplicationModule, Stock.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,614 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Stock.StockWebApiModule, Stock.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,614 [263  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:58,616 [263  ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-08-29 22:41:58,943 [263  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Stock.EntityFramework.StockDbContext, Stock.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-08-29 22:41:59,154 [263  ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-08-29 22:41:59,158 [263  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-08-29 22:41:59,159 [263  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-08-29 22:41:59,160 [263  ] Abp.Localization.LocalizationManager     - Initialized localization source: Stock
+DEBUG 2016-08-29 22:41:59,317 [263  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-08-29 22:42:01,003 [302  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-08-29 22:42:01,023 [302  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-08-29 22:43:22,479 [294  ] Stock.Web.Controllers.HomeController     - "<" is not valid at the start of a code block.  Only identifiers, keywords, comments, "(" and "{" are valid.
+
+System.Web.HttpParseException (0x80004005): "<" is not valid at the start of a code block.  Only identifiers, keywords, comments, "(" and "{" are valid.
+
+   在 System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   在 System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-08-29 22:43:41,181 [311  ] Stock.Web.Controllers.HomeController     - "'</span>" is not valid at the start of a code block.  Only identifiers, keywords, comments, "(" and "{" are valid.
+
+System.Web.HttpParseException (0x80004005): "'</span>" is not valid at the start of a code block.  Only identifiers, keywords, comments, "(" and "{" are valid.
+
+   在 System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   在 System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-08-29 23:03:46,177 [297  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-08-29 23:03:46,177 [297  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-08-29 23:03:46,177 [297  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-08-29 23:03:46,177 [297  ] Abp.Modules.AbpModuleManager             - Shutting down completed.

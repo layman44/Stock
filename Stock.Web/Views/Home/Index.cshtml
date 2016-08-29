@@ -7,31 +7,14 @@
     <script src="~/vendors/metisMenu/jquery.metisMenu.js"></script>
     <script src="~/vendors/jquery-cookie/jquery.cookie.js"></script>
     <!--CORE JAVASCRIPT-->
+    <script src="~/Views/Home/typeahead.bundle.js"></script>
     <script src="~/js/main.js"></script>
 }
 <div>
-    <h1>@L("WellcomeMessage")!</h1>
-    <p class="lead">@L("Home_ThisIsATemplate")</p>
-    <div class="row">
-        <div class="col-md-4">
-            <h3>ASP.NET MVC</h3>
-            <p>
-                @L("Home_AspNetDescription")
-            </p>
-            <a class="btn btn-primary btn-sm" href="http://asp.net/mvc">@L("LearnMore")..</a>
-        </div>
-        <div class="col-md-4">
-            <h3>ASP.NET Boilerplate</h3>
-            <p>
-                @L("Home_AspNetBoilerplateDescription")
-            </p>
-            <a class="btn btn-primary btn-sm" href="http://aspnetboilerplate.com">@L("LearnMore")..</a>
-        </div>
-        <div class="col-md-4">
-            <h3>@L("Others")</h3>
-            <p>
-                @L("Home_OtherTools")
-            </p>
-        </div>
+    <div class="input-group input-group-lg">        
+        <input id="searchbar" placeholder="股票" type="text" class="form-control" name="test" />
+        <span class="input-group-btn">
+            <button class="btn btn-blue" type="button">Go!</button>
+        </span>
     </div>
 </div>

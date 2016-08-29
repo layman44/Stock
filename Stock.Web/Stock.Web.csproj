@@ -639,6 +639,7 @@
     <Content Include="vendors\x-editable\jquery.mockjax.js" />
     <Content Include="vendors\x-editable\select2\lib\select2-madmin.css" />
     <Content Include="vendors\x-editable\select2\lib\select2.js" />
+    <Content Include="Views\Home\typeahead.bundle.js" />
     <Content Include="Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
