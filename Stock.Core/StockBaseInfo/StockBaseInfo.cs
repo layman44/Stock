@@ -14,7 +14,7 @@ using Stock.Areas;
 namespace Stock.StockBaseInfo
 {
     [Table("TblStockBaseInfo")]
-    public class StockBaseInfo:Entity<string>
+    public class StockBaseInfo : Entity<string>
     {
         public const int MaxCodeLength = 6;
         /// <summary>
@@ -39,7 +39,7 @@ namespace Stock.StockBaseInfo
         /// 地区
         /// </summary>
         [ForeignKey("AreaId")]
-        public virtual Area Area { get; set; }
+        public virtual Areas.Area Area { get; set; }
         /// <summary>
         /// 地区编码
         /// </summary>

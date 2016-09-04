@@ -1,8 +1,5 @@
 ﻿using Abp.EntityFramework;
 using System.Data.Entity;
-using Stock.StockBaseInfo;
-using Stock.Areas;
-using Stock.Industries;
 
 namespace Stock.EntityFramework
 {
@@ -10,9 +7,9 @@ namespace Stock.EntityFramework
     public class StockDbContext : AbpDbContext
     {
         //TODO: Define an IDbSet for each Entity...
-        public virtual IDbSet<Area> Areas { get; set; }
+        public virtual IDbSet<Areas.Area> Areas { get; set; }
 
-        public virtual IDbSet<Industry> Industries { get; set; }
+        public virtual IDbSet<Industries.Industry> Industries { get; set; }
 
         public virtual IDbSet<StockBaseInfo.StockBaseInfo> StockBaseInfos { get; set; }
 

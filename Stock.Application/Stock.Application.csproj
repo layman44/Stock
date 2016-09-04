@@ -90,6 +90,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Area\AreaService.cs" />
+    <Compile Include="Area\Dtos\AreaDto.cs" />
+    <Compile Include="Area\Dtos\GetAreaListInput.cs" />
+    <Compile Include="Area\Dtos\GetRootsOutput.cs" />
+    <Compile Include="Area\Dtos\InsertAreaInput.cs" />
+    <Compile Include="Area\Dtos\UpdateAreaInput.cs" />
+    <Compile Include="Area\IAreaService.cs" />
+    <Compile Include="DtoMappings.cs" />
     <Compile Include="StockApplicationModule.cs" />
     <Compile Include="StockAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

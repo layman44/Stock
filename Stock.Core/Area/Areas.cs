@@ -14,6 +14,9 @@ namespace Stock.Areas
     [Table("TblArea")]
     public class Area:Entity<string>
     {
+        public const int MaxIDLength = 6;
+
+        public const int MaxNameLength = 50;
         /// <summary>
         /// 地区名称
         /// </summary>
