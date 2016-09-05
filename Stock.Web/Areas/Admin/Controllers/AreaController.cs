@@ -28,5 +28,19 @@ namespace Stock.Web.Areas.Admin.Controllers
             var output = await _areaService.GetRoots();
             return Json(output, JsonRequestBehavior.AllowGet);
         }
+
+        [HttpGet]
+        public async Task<JsonResult> GetAreaListByParentID(String id = null)
+        {
+            if (id == null)
+            {
+                var roots = await _areaService.GetRoots();
+                return Json(roots, JsonRequestBehavior.AllowGet);
+            }
+            var input = new Area.Dtos.GetAreaListInput();
+            input.ParentId = id;
+            var childs = await _areaService.GetChildList(input);
+            return Json(childs, JsonRequestBehavior.AllowGet);
+        }
     }
 }
