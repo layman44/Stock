@@ -1,4 +1,4 @@
-﻿
+﻿@model Stock.Web.Areas.Admin.Models.Area.IndexViewModel
 @{
     ViewBag.Title = "index";
 }
@@ -21,6 +21,10 @@
             </tr>
         </thead>
         <tbody>
+            @foreach (var task in Model.Areas)
+            {
+
+            }
         </tbody>
     </table>
 </div>

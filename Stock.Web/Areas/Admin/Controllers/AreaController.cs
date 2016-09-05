@@ -1,4 +1,5 @@
 ﻿using Stock.Area;
+using Stock.Web.Areas.Admin.Models.Area;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,30 +18,20 @@ namespace Stock.Web.Areas.Admin.Controllers
         }
 
         // GET: Admin/Area
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        [HttpGet]
-        public async Task<JsonResult> GetRoots()
+        public async Task<ActionResult> Index()
         {
             var output = await _areaService.GetRoots();
-            return Json(output, JsonRequestBehavior.AllowGet);
+            var model = new IndexViewModel(output.Roots);
+            return View(model);
         }
 
         [HttpGet]
-        public async Task<JsonResult> GetAreaListByParentID(String id = null)
+        public async Task<JsonResult> GetAreaListByParentID(String id)
         {
-            if (id == null)
-            {
-                var roots = await _areaService.GetRoots();
-                return Json(roots, JsonRequestBehavior.AllowGet);
-            }
             var input = new Area.Dtos.GetAreaListInput();
             input.ParentId = id;
-            var childs = await _areaService.GetChildList(input);
-            return Json(childs, JsonRequestBehavior.AllowGet);
+            var output = await _areaService.GetChildList(input);
+            return Json(output, JsonRequestBehavior.AllowGet);
         }
     }
 }
