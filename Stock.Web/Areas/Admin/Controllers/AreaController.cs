@@ -1,5 +1,6 @@
 ﻿using Stock.Area;
 using Stock.Web.Areas.Admin.Models.Area;
+using Stock.Web.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Web.Mvc;
 
 namespace Stock.Web.Areas.Admin.Controllers
 {
-    public class AreaController : Controller
+    public class AreaController : StockControllerBase
     {
         private readonly IAreaService _areaService;
         public AreaController(IAreaService areaService)

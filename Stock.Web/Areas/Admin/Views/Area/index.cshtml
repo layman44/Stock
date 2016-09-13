@@ -2,19 +2,18 @@
 @{
     ViewBag.Title = "index";
 }
-@section styles{
-    <link rel="Stylesheet" href="~/Areas/Admin/Scripts/jquery-treetable/stylesheets/jquery.treetable.css" />
-    <link rel="Stylesheet" href="~/Areas/Admin/Scripts/jquery-treetable/stylesheets/jquery.treetable.theme.custom.css" />
-}
-
-@section scripts 
+<link rel="Stylesheet" href="~/Areas/Admin/Scripts/jquery-treetable/stylesheets/jquery.treetable.css" />
+<link rel="Stylesheet" href="~/Areas/Admin/Scripts/jquery-treetable/stylesheets/jquery.treetable.theme.custom.css" />
+@section scripts
 {
+    <script src="~/vendors/metisMenu/jquery.metisMenu.js"></script>
+    <script src="~/vendors/jquery-cookie/jquery.cookie.js"></script>
     <script src="~/Areas/Admin/Scripts/jquery-treetable/javascripts/src/jquery.treetable.js"></script>
+    <script src="~/Areas/Admin/Scripts/Area/index.js"></script>
 }
-<h2>index</h2>
 <div>
-    <table id="areatree">
-        <thead>
+    <table id="areatree" class="table table-hover table-advanced table-bordered">
+        <thead class="blue">
             <tr>
                 <th>Code</th>
                 <th>Name</th>
@@ -23,8 +22,12 @@
         <tbody>
             @foreach (var task in Model.Areas)
             {
-
+                <tr data-tt-id="@task.Id" data-tt-branch="true" class="branch">
+                    <td>@task.Id</td>
+                    <td>@task.Name</td>
+                </tr>
             }
         </tbody>
     </table>
 </div>
+@*备注：jquery.treetable 相关https://github.com/ludo/jquery-treetable/issues/79*@

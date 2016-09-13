@@ -386,28 +386,6 @@ $(function () {
         });
     });
     // END SEARCH FORM ON TOPBAR
-
-    // BEGIN DATERANGE PICKER ON BREADCRUMB
-    $('.reportrange').daterangepicker(
-        {
-            ranges: {
-                'Today': [moment(), moment()],
-                'Yesterday': [moment().subtract('days', 1), moment().subtract('days', 1)],
-                'Last 7 Days': [moment().subtract('days', 6), moment()],
-                'Last 30 Days': [moment().subtract('days', 29), moment()],
-                'This Month': [moment().startOf('month'), moment().endOf('month')],
-                'Last Month': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
-            },
-            startDate: moment().subtract('days', 29),
-            endDate: moment(),
-            opens: 'left',
-        },
-        function(start, end) {
-            $('.reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
-            $('input[name="datestart"]').val(start.format("YYYY-MM-DD"));
-            $('input[name="endstart"]').val(end.format("YYYY-MM-DD"));
-        }
-    );
     $('.reportrange span').html(moment().subtract('days', 29).format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
     //END PLUGINS DATE RANGE PICKER
 });

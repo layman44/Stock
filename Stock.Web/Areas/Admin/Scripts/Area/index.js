@@ -1,0 +1,3 @@
+﻿(function ($) {
+    $("#areatree").treetable();
+})(jQuery);
