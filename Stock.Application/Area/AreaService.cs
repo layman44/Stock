@@ -21,7 +21,7 @@ namespace Stock.Area
         public async Task<ListResultOutput<AreaDto>> GetChildList(GetAreaListInput input)
         {
             var startWith = input.ParentId.TrimEnd('0');
-            var childs = await _areaRepository.GetAllListAsync(area => area.Id.StartsWith(startWith));
+            var childs = await _areaRepository.GetAllListAsync(area => area.Id.StartsWith(startWith) && area.Id != input.ParentId);
             return Mapper.Map<ListResultOutput<AreaDto>>(childs);
         }
 
