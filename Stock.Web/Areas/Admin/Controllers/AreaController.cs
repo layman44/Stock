@@ -32,7 +32,7 @@ namespace Stock.Web.Areas.Admin.Controllers
             var input = new Area.Dtos.GetAreaListInput();
             input.ParentId = id;
             var output = await _areaService.GetChildList(input);
-            return Json(output, JsonRequestBehavior.AllowGet);
+            return Json(output.Items, JsonRequestBehavior.AllowGet);
         }
     }
 }

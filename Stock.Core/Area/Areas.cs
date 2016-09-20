@@ -21,5 +21,7 @@ namespace Stock.Areas
         /// 地区名称
         /// </summary>
         public virtual string Name { get; set; }
+
+        public virtual string ParentId { get; set; }
     }
 }

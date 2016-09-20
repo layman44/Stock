@@ -20,15 +20,14 @@ namespace Stock.Area
 
         public async Task<ListResultOutput<AreaDto>> GetChildList(GetAreaListInput input)
         {
-            var startWith = input.ParentId.TrimEnd('0');
-            var childs = await _areaRepository.GetAllListAsync(area => area.Id.StartsWith(startWith) && area.Id != input.ParentId);
-            return Mapper.Map<ListResultOutput<AreaDto>>(childs);
+            var childs = await _areaRepository.GetAllListAsync(area => area.ParentId==input.ParentId);
+            var dtos = Mapper.Map<List<AreaDto>>(childs);
+            return new ListResultOutput<AreaDto>(dtos);
         }
 
         public async Task<GetRootsOutput> GetRoots()
         {
-            var endWith = "0000";
-            var roots = await _areaRepository.GetAllListAsync(area => area.Id.EndsWith(endWith));
+            var roots = await _areaRepository.GetAllListAsync(area => string.IsNullOrEmpty(area.ParentId));
             return new GetRootsOutput
             {
                 Roots = Mapper.Map<List<AreaDto>>(roots)
@@ -40,6 +39,7 @@ namespace Stock.Area
             Areas.Area area = new Areas.Area();
             area.Id = input.Id;
             area.Name = input.Name;
+            area.ParentId = input.ParentId;
             await _areaRepository.InsertAsync(area);
         }
 

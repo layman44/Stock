@@ -12,11 +12,21 @@
                 async: false,
                 type: 'GET',
                 url: "GetAreaListByParentID?id=" + this.id
-            }).done(function (data) {
-                for (item in data) {
-                    var html = "<tr data-tt-id='" + item.id + "' data-tt-parent-id='" + this.id + "'><td>" + item.id + "</td><td>" + item.name + "</td></tr>";
-                    areatable.addChilds(html);
+            }).done(function (res) {
+                if (res.success) {
+                    var html = "";
+                    if (res.result[0].id.toString().lastIndexOf('00') == 4) {
+                        for (var i = 0; i < res.result.length; i++) {
+                            html += "<tr data-tt-id='" + res.result[i].id + "' data-tt-parent-id='" + node.id + "' data-tt-branch='true' class='branch'><td>" + res.result[i].id + "</td><td>" + res.result[i].name + "</td></tr>";
+                        }
+                    }
+                    else {
+                        for (var i = 0; i < res.result.length; i++) {
+                            html += "<tr data-tt-id='" + res.result[i].id + "' data-tt-parent-id='" + node.id + "'><td>" + res.result[i].id + "</td><td>" + res.result[i].name + "</td></tr>";
+                        }
+                    }
                 }
+                areatable.treetable("loadBranch",node, html);
             }).fail(function (data) {
                 alert(data);
             });

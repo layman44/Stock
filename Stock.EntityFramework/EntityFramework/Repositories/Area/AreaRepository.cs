@@ -17,9 +17,8 @@ namespace Stock.EntityFramework.Repositories.Area
 
         public async Task<List<Areas.Area>> GetRootListAsync()
         {
-            var endWith = "0000";
             var query = await GetAllListAsync();
-            return query.Where(area => area.Id.EndsWith(endWith)).ToList();
+            return query.Where(area => string.IsNullOrEmpty(area.ParentId)).ToList();
         }
     }
 }

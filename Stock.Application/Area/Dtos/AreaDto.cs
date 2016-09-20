@@ -12,5 +12,7 @@ namespace Stock.Area.Dtos
     public class AreaDto: EntityDto
     {
         public string Name { get; set; }
+
+        public string ParentId { get; set; }
     }
 }

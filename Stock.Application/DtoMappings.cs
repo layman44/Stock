@@ -1,18 +1,16 @@
-﻿using AutoMapper;
+﻿using Abp.Application.Services.Dto;
+using AutoMapper;
 using Stock.Area.Dtos;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Stock
 {
-   internal static class DtoMappings
+    internal static class DtoMappings
     {
         public static void Map()
         {
             Mapper.CreateMap<Areas.Area, AreaDto>();
+            Mapper.CreateMap<List<Areas.Area>, ListResultOutput<AreaDto>>();
         }
     }
 }
