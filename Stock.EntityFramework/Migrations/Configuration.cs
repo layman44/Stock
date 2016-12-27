@@ -2,7 +2,7 @@ using System.Data.Entity.Migrations;
 
 namespace Stock.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<Stock.EntityFramework.StockDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<EntityFramework.StockDbContext>
     {
         public Configuration()
         {
@@ -10,7 +10,7 @@ namespace Stock.Migrations
             ContextKey = "Stock";
         }
 
-        protected override void Seed(Stock.EntityFramework.StockDbContext context)
+        protected override void Seed(EntityFramework.StockDbContext context)
         {
             // This method will be called every time after migrating to the latest version.
             // You can add any seed data here...

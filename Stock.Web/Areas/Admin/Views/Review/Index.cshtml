@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "每日涨停板复盘";
+}
+<link rel="Stylesheet" href="~/Areas/Admin/Scripts/bootstrap-datepicker/css/datepicker3.css" />
+@section scripts
+{
+    <script src="~/vendors/metisMenu/jquery.metisMenu.js"></script>
+    <script src="~/vendors/jquery-cookie/jquery.cookie.js"></script>
+    <script src="~/Areas/Admin/Scripts/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="~/Areas/Admin/Scripts/Review/index.js"></script>
+}
+<h1>每日涨停板复盘</h1>
+<div class="form-group form-horizontal has-success">
+    <label class="col-md-1 control-label">日期：</label>
+    <div class="col-md-5">
+        <div class="input-group">
+            <input id="datetimepicker" type="text" class="datepicker-years form-control" />
+        </div>
+    </div>
+</div>
+<div>
+    1.上板时候的换手率
+    2.是否一字板
+    3.封板时间
+    4.是否开板
+    5.待续
+</div>

@@ -11,7 +11,7 @@ namespace Stock.EntityFramework
 
         public virtual IDbSet<Industries.Industry> Industries { get; set; }
 
-        public virtual IDbSet<StockBaseInfo.StockBaseInfo> StockBaseInfos { get; set; }
+        public virtual IDbSet<Stock.StockBaseInfo> StockBaseInfos { get; set; }
 
         //Example:
         //public virtual IDbSet<User> Users { get; set; }

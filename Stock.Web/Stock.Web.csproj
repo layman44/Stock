@@ -220,9 +220,13 @@
     <Content Include="Abp\Framework\styles\abp.mixings.min.css" />
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
     <Content Include="Areas\Admin\Scripts\Area\index.js" />
+    <Content Include="Areas\Admin\Scripts\bootstrap-datepicker\css\datepicker.css" />
+    <Content Include="Areas\Admin\Scripts\bootstrap-datepicker\css\datepicker3.css" />
+    <Content Include="Areas\Admin\Scripts\bootstrap-datepicker\js\bootstrap-datepicker.js" />
     <Content Include="Areas\Admin\Scripts\jquery-treetable\javascripts\src\jquery.treetable.js" />
     <Content Include="Areas\Admin\Scripts\jquery-treetable\stylesheets\jquery.treetable.css" />
     <Content Include="Areas\Admin\Scripts\jquery-treetable\stylesheets\jquery.treetable.theme.custom.css" />
+    <Content Include="Areas\Admin\Scripts\Review\index.js" />
     <Content Include="bin\Abp.AutoMapper.dll" />
     <Content Include="bin\Abp.AutoMapper.pdb" />
     <Content Include="bin\Abp.AutoMapper.xml" />
@@ -452,6 +456,9 @@
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Area\index.cshtml" />
     <Content Include="Areas\User\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Stock\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Stock\Detail.cshtml" />
+    <Content Include="Areas\Admin\Views\Review\Index.cshtml" />
     <None Include="bin\Stock.Web.dll.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -755,8 +762,10 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AreaController.cs" />
     <Compile Include="Areas\Admin\Controllers\IndustryController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ReviewController.cs" />
     <Compile Include="Areas\Admin\Controllers\StockController.cs" />
     <Compile Include="Areas\Admin\Models\Area\IndexViewModel.cs" />
+    <Compile Include="Areas\Admin\Models\Stock\IndexViewModel.cs" />
     <Compile Include="Areas\User\UserAreaRegistration.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Models\Layout\LanguageSelectionViewModel.cs" />
@@ -818,7 +827,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Views\Industry\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
-    <Folder Include="Areas\Admin\Views\Stock\" />
     <Folder Include="Areas\User\Controllers\" />
     <Folder Include="Areas\User\Models\" />
     <Folder Include="Areas\User\Views\Shared\" />

@@ -1,22 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Domain.Entities;
-using Abp.Domain.Entities.Auditing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Stock.Industries;
-using Stock.Areas;
 
-namespace Stock.StockBaseInfo
+namespace Stock.Stock
 {
     [Table("TblStockBaseInfo")]
     public class StockBaseInfo : Entity<string>
     {
         public const int MaxCodeLength = 6;
+        public const int MinCodeLength = 6;
         /// <summary>
         /// 股票代码
         /// </summary>

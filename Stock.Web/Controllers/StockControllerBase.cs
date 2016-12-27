@@ -11,5 +11,7 @@ namespace Stock.Web.Controllers
         {
             LocalizationSourceName = StockConsts.LocalizationSourceName;
         }
+
+
     }
 }

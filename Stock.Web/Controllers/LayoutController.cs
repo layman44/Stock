@@ -20,6 +20,7 @@ namespace Stock.Web.Controllers
         [ChildActionOnly]
         public PartialViewResult TopMenu(string activeMenu = "")
         {
+            //var user = new Abp.UserIdentifier(null, AbpSession.UserId.Value);
             var model = new TopMenuViewModel
                         {
                             MainMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("MainMenu", AbpSession.UserId)),
@@ -32,6 +33,7 @@ namespace Stock.Web.Controllers
         [ChildActionOnly]
         public PartialViewResult SiderMenu(string activeMenu = "")
         {
+            //var user = new Abp.UserIdentifier(null, AbpSession.UserId.Value);
             var model = new SiderMenuViewModel
             {
                 MainMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("MainMenu", AbpSession.UserId)),

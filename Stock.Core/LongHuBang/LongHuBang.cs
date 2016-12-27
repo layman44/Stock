@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stock.StockBaseInfo
+namespace Stock.LongHuBang
 {
-    public class StockDetail:Entity<String>
+    public class LongHuBang:Entity<string>
     {
-       
+
     }
 }
